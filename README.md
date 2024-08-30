@@ -1,6 +1,5 @@
 Here is a simple `README.md` for your Node.js script:
 
-```markdown
 # Todo CLI
 
 A simple command-line interface (CLI) application to manage your todo list using Node.js. This script allows you to add, list, mark as done, and delete todos stored in a JSON file.
@@ -102,6 +101,6 @@ node todo.js delete 1
 ## License
 
 This project is licensed under the MIT License.
-```
+
 
 This `README.md` provides a clear overview of how to use your todo CLI, including the necessary commands and examples.
