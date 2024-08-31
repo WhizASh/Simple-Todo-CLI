@@ -38,7 +38,7 @@ else if(command == "done"){
 else if(command == "delete"){
     todo_id = process.argv[3]
     let data = JSON.parse(fs.readFileSync('./data.json','utf-8'))
-    data.splice(todo_id-1,1)
+    data = data.filter((data)=>data.id != todo_id)
     fs.writeFileSync('./data.json', JSON.stringify(data), 'utf-8')
     console.log("todo deleted ")
 }
